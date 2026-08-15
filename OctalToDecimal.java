@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class OctalToDecimal {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input any octal number: ");
+        String octal = input.nextLine();
+
+        int decimal = Integer.parseInt(octal, 8);
+
+        System.out.println("Equivalent decimal number: " + decimal);
+    }
+}
